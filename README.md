@@ -9,9 +9,14 @@ Capas densas: Las dos capas anteriores son los building blocks de la parte de ex
 
 En resumen para la obtención del modelo CNN en base a un dataset de carnes se tienen los siguientes pasos:
 
-Preparación del dataset, una vez descargado localmente se procede a apuntar al path especifico de training.
-Construimos un modelo en base a las caracteristicas mencionadas en la parte superior.
-Se entrena el modelo entre mas epoch mejor entrenado estará, pero este tomará más tiempo.
-Se visualizan los datos y se generan imágenes para comprobar que se este entrenando de acuerdo a las categorias del dataset.
-Se procede a validar los datos del train con el test para obtener resultados, en cuanto se valida se toma una imagen de muestra que puede estar en otra carpeta y se verifica la precisión del modelo entrenado.
-Posteriormente se genera la matriz de confusión y así se puede tener mejores detalles de la eficiencia del modelo ya con datos de test.
+1.- Preparación del dataset, una vez descargado localmente se procede a apuntar al path especifico de training.
+
+2.- Construimos un modelo en base a las caracteristicas mencionadas en la parte superior.
+
+3.-Se entrena el modelo entre mas epoch mejor entrenado estará, pero este tomará más tiempo.
+
+4.-Se visualizan los datos y se generan imágenes para comprobar que se este entrenando de acuerdo a las categorias del dataset.
+
+5.-Se procede a validar los datos del train con el test para obtener resultados, en cuanto se valida se toma una imagen de muestra que puede estar en otra carpeta y se verifica la precisión del modelo entrenado.
+
+6.-Posteriormente se genera la matriz de confusión y así se puede tener mejores detalles de la eficiencia del modelo ya con datos de test.
