@@ -1,7 +1,7 @@
 # Pruebafinal-UIDE
-El proyecto final de la materia de Tratamiento de datos se basó en:
+#El proyecto final de la materia de Tratamiento de datos se basó en:
 
-Redes neuronales convucionales (CNNs) con:
+#Redes neuronales convucionales (CNNs) con:
 
 Capa convolucional: Esta es tal vez la capa más importante en visión artificial, y por eso las redes neuronales utilizadas heredan su nombre de ella: CNN por su acrónimo en inglés (convolutional neural network). Una capa de este tipo aplica un filtro o kernel a una región determinada de la imagen, siendo 3x3 o 5x5 píxeles los tamaños más usuales. 
 
@@ -11,7 +11,7 @@ Pooling layers: El segundo elemento fundamental de estas redes son las capas de 
 
 Capas densas: Las dos capas anteriores son los building blocks de la parte de extracción de características de las imágenes, pero una vez hemos extraído esta información, hace falta otro tipo de capa que pese estas características y clasifique la imagen en nuestras clases. Estas son las capas densas. Las capas densas son las capas típicas de las redes neuronales, conectan todos los elementos del input (un vector) con todos los del output (otro vector), para lo cual necesitaremos “aplanar” la imagen que sale de nuestra última capa convolucional. Estas capas tienen muchos parámetros y permiten extraer mucha información, pero por esto mismo son muy costosas computacionalmente, por lo que conviene no abusar de ellas.
 
-En resumen para la obtención del modelo CNN en base a un dataset de carnes se tienen los siguientes pasos:
+#En resumen para la obtención del modelo CNN en base a un dataset de carnes se tienen los siguientes pasos:
 
 1.- Preparación del dataset, una vez descargado localmente se procede a apuntar al path especifico de training.
 
